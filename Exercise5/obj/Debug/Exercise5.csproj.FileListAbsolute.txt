@@ -1,0 +1,7 @@
+C:\Users\Ian Sui\source\repos\C#\ConsoleExercises\Exercise5\bin\Debug\Exercise5.exe.config
+C:\Users\Ian Sui\source\repos\C#\ConsoleExercises\Exercise5\bin\Debug\Exercise5.exe
+C:\Users\Ian Sui\source\repos\C#\ConsoleExercises\Exercise5\bin\Debug\Exercise5.pdb
+C:\Users\Ian Sui\source\repos\C#\ConsoleExercises\Exercise5\obj\Debug\Exercise5.csprojResolveAssemblyReference.cache
+C:\Users\Ian Sui\source\repos\C#\ConsoleExercises\Exercise5\obj\Debug\Exercise5.csproj.CoreCompileInputs.cache
+C:\Users\Ian Sui\source\repos\C#\ConsoleExercises\Exercise5\obj\Debug\Exercise5.exe
+C:\Users\Ian Sui\source\repos\C#\ConsoleExercises\Exercise5\obj\Debug\Exercise5.pdb
