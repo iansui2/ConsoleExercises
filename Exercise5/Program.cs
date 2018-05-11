@@ -18,8 +18,8 @@ namespace Exercise5
                 Console.WriteLine("Enter a digit: ");
                 digit = Convert.ToInt32(Console.ReadLine());
 
-                string spaces = (digit + " " + digit + " " + digit + " " + digit);
-                string noSpaces = (digit + "" + digit + "" + digit + "" + digit);
+                string spaces = ($"{digit} {digit} {digit} {digit}");
+                string noSpaces = ($"{digit}{digit}{digit}{digit}");
 
                 Console.WriteLine("Expected Output: ");
                 for (int i = 0; i < 2; i++)

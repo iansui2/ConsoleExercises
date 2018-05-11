@@ -27,13 +27,13 @@ namespace Exercise1.Exception
                 remainder = firstnumber % secondnumber;
 
                 Console.WriteLine("Expected Output: ");
-                Console.WriteLine(firstnumber + " + " + secondnumber + " = " + sum);
-                Console.WriteLine(firstnumber + " - " + secondnumber + " = " + difference);
-                Console.WriteLine(firstnumber + " * " + secondnumber + " = " + product);
-                Console.WriteLine(firstnumber + " / " + secondnumber + " = " + quotient);
-                Console.WriteLine(firstnumber + " mod " + secondnumber + " = " + remainder);
+                Console.WriteLine($"{firstnumber}  +   {secondnumber} = {sum}");
+                Console.WriteLine($"{firstnumber}  -   {secondnumber} = {difference}");
+                Console.WriteLine($"{firstnumber}  *   {secondnumber} = {product}");
+                Console.WriteLine($"{firstnumber}  /   {secondnumber} = {quotient}");
+                Console.WriteLine($"{firstnumber}  mod {secondnumber} = {remainder}");
             }
-            catch(FormatException)
+            catch (FormatException)
             {
                 Console.WriteLine("Cannot convert string to double");
             }

@@ -26,7 +26,7 @@ namespace Exercise4
                 result2 = x * y + y * z;
 
                 Console.WriteLine("Expected Output: ");
-                Console.WriteLine("Result of specified numbers " + x + ", " + y + " and " + z + ", " + "(x + y).z is " + result1 + " and x.y + y.z is " + result2);
+                Console.WriteLine($"Result of specified numbers {x}, {y} and {z}, (x + y).z is {result1} and x.y + y.z is {result2}");
             }
             catch(FormatException)
             {

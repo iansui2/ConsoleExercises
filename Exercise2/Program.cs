@@ -21,7 +21,7 @@ namespace Exercise2
                 Console.WriteLine("Expected Output: ");
                 for (int i = 0; i <= 10; i++)
                 {
-                    Console.WriteLine(number + " * " + i + " = " + number * i);
+                    Console.WriteLine($"{number} * {i} = {number * i}");
                 }
             }
             catch(FormatException)

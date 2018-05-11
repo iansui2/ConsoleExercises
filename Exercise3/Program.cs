@@ -27,7 +27,7 @@ namespace Exercise3
                 average = (firstnumber + secondnumber + thirdnumber + fourthnumber) / 4;
 
                 Console.WriteLine("Expected Output: ");
-                Console.WriteLine("The average of " + firstnumber + " , " + secondnumber + " , " + thirdnumber + " , " + fourthnumber + " is: " + average);
+                Console.WriteLine($"The average of {firstnumber}, {secondnumber}, {thirdnumber}, {fourthnumber} is: {average}");
             }
             catch(FormatException)
             {
