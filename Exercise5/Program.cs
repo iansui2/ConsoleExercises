@@ -10,35 +10,30 @@ namespace Exercise5
     {
         static void Main(string[] args)
         {
-            start:
-            int digit;
-            Console.WriteLine("Test Data: ");
-            Console.WriteLine("Enter a digit: ");
-            digit = Convert.ToInt32(Console.ReadLine());
+            try
+            {
+                int digit;
 
-            Console.WriteLine("Expected Output: ");
+                Console.WriteLine("Test Data: ");
+                Console.WriteLine("Enter a digit: ");
+                digit = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write( digit );
-            Console.Write(" ");
-            Console.Write( digit );
-            Console.Write(" ");
-            Console.Write( digit );
-            Console.Write(" ");
-            Console.Write( digit );
-            Console.WriteLine();
+                string spaces = (digit + " " + digit + " " + digit + " " + digit);
+                string noSpaces = (digit + "" + digit + "" + digit + "" + digit);
 
-            Console.Write( digit );
-            Console.Write( digit );
-            Console.Write( digit );
-            Console.WriteLine( digit );
-
-            Console.WriteLine("{0} {0} {0} {0}", digit);
-
-            Console.WriteLine("{0}{0}{0}{0}", digit);
-
+                Console.WriteLine("Expected Output: ");
+                for (int i = 0; i < 2; i++)
+                {
+                    Console.WriteLine(spaces);
+                    Console.WriteLine(noSpaces);
+                }
+            }
+            catch(FormatException)
+            {
+                Console.WriteLine("Cannot convert string to integer");
+            }
             Console.ReadKey();
             Console.Clear();
-            goto start;
         }
     }
 }
